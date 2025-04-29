@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Header top -->
+        <div class="d-flex gap-4 justify-content-end align-items-center F0EBDA-bg-color" style="padding: 15px 9%;">
+            <div class="d-flex">
+                <a href="" class="inline-blobk px-4 text-black hover-text">Trang chủ</a>
+                <a href="" class="inline-blobk px-4 text-black hover-text">Đấu giá</a>
+                <a href="" class="inline-blobk px-4 text-black hover-text">Đăng bài</a>
+                <a href="" class="inline-blobk px-4 text-black hover-text">Gói Birds</a>
+            </div>
+            <div class="d-flex gap-4">
+                <i class="fa-solid fa-bell primary-color pointer"></i>
+                <i class="fa-solid fa-cart-shopping primary-color pointer"></i>
+            </div>
+        </div>
+        <!-- End header top -->
+        <hr class="m-0 p-0"/>
+        <!-- Header bottom -->
+        <div class="d-flex justify-content-between align-items-center F5EDCE-bg-color" style="padding: 0 9%;">
+            <div class="d-flex align-items-center gap-1 pointer">
+                <img src="./images/image.png" alt="" style="width: 80px;">
+                <span class="primary-color fs-3 text">Reddit.</span>
+            </div>
+            <div class="border border-black rounded d-flex align-items-center px-3 py-2 bg-light">
+                <input type="text" class="bg-light" style="width:300px;" placeholder="Tìm kiếm sản phẩm...">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass primary-color pointer"></i>
+                </div>
+            </div>
+            <div class="fs-6 text d-flex gap-2">
+                <a class="text-black hover-text" href="">Đăng ký</a> | <a class="text-black hover-text" href="">Đăng nhập</a>
+            </div>
+        </div>
+        <!-- end header bottom -->
+    </header>
+
+    <section class="FAF6EA-bg-color d-flex justify-content-between" style="padding: 30px 9%;">
+        <!-- left -->
+        <div class="p-3 bg-white rounded" style="width: 27%;">
+            <div class="d-flex justify-content-between align-items-center">
+                <img src="./images/image.png" class="rounded-circle" style="width: 60px; height: 60px;" alt="">
+                <div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="fs-6 text">Quan Nguyen</span>
+                        <i class="fa-solid fa-cube pointer"></i>
+                    </div>
+                    <p class="fs-7">quannguyen2004aa@gmail.com</p>
+                </div>
+            </div>
+            <div class="mt-4">
+                <div class="p-3 linear-orange rounded">
+                    <div class="d-flex justify-content-between">
+                        <p class="text fs-6 fw-semibold dark-blue-color">Tổng số tiền</p>
+                        <span class="d-flex justify-content-center align-items-center primary-bg-color rounded-circle pointer" 
+                                style="width: 30px; height: 30px;">
+                            <i class="fa-solid fa-plus text text-white"></i>
+                        </span>
+                    </div>
+                    <span class="text fs-3">0</span>
+                </div>
+                <div class="p-3 linear-green rounded mt-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="text fs-6 fw-semibold dark-blue-color">Tổng số Bids</p>
+                        <span class="d-flex justify-content-center align-items-center rounded-circle pointer" 
+                                style="width: 30px; height: 30px; background-color: rgb(4, 143, 16);">
+                            <i class="fa-solid fa-plus text text-white"></i>
+                        </span>
+                    </div>
+                    <span class="text fs-3">0</span>
+                </div>
+            </div>
+            <ul class="mt-4 d-flex flex-column gap-4 px-3">
+                <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-cube"></i>
+                    <span>Lịch sử đấu giá</span>
+                </li>
+                <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-cube"></i>
+                    <span>Lịch sử giao dịch Bids</span>
+                </li>
+                <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-cube"></i>
+                    <span>Lịch sử thanh toán</span>
+                </li>
+                <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-cube"></i>
+                    <span>Địa chỉ nhận hàng</span>
+                </li>
+                <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-cube"></i>
+                    <span>Sản phẩm thắng</span>
+                </li>
+            </ul>
+        </div>
+        <!-- right -->
+        <div class="p-3 bg-white rounded" style="width: 71%;">
+            <h4 class="text fs-4 dark-blue-color">Thông tin tài khoản</h4>
+            <div class="d-flex flex-column align-items-center gap-1 mt-5">
+                <img src="./images/image.png" class="rounded-circle p-1" 
+                    style="width: 100px; height: 100px; border: 2px solid orangered;" alt="">
+                <span class="dark-blue-color text fs-4 fw-semibold">Quan Nguyen</span>
+            </div>
+
+            <div class="px-5 mt-4 d-flex flex-column" style="gap: 2rem;">
+                <input type="text" placeholder="Họ và tên: Quan Nguyen" 
+                    class="w-100 pb-2 placeholder-black"
+                    style="border-bottom: 1px solid #444;">
+                <input type="text" placeholder="Giới tính: Nam" 
+                    class="w-100 pb-2 placeholder-black"
+                    style="border-bottom: 1px solid #444;">
+                <input type="email" placeholder="Email: quannguyen2004aa@gmail.com" 
+                    class="w-100 pb-2 placeholder-black"
+                    style="border-bottom: 1px solid #444;">
+                <input type="text" placeholder="Mã giới thiệu: wxaa292101rade21" 
+                    class="w-100 pb-2 placeholder-black"
+                    style="border-bottom: 1px solid #444;">
+                <input type="text" placeholder="Tham gia ngày: 07/03/2025" 
+                    class="w-100 pb-2 placeholder-black"
+                    style="border-bottom: 1px solid #444;">
+            </div>
+
+            <div class="d-flex justify-content-center mt-5">
+                <button class="button-primary px-5 py-2">Cập nhật thông tin</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="F5EDCE-bg-color d-flex" style="padding: 20px 9%; gap: 18rem;">
+        <div>
+            <div class="d-flex align-items-center gap-1">
+                <img src="./images/image.png" alt="" style="width: 80px;">
+                <span class="primary-color fs-3 text fw-semibold">Reddit.</span>
+            </div>
+            <div class="mt-3">
+                <div class="d-flex gap-2 align-items-center">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(00) 346 387 246</span>
+                </div>
+                <div class="d-flex gap-2 align-items-center mt-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>daugia@gmail.com</span>
+                </div>
+                <div class="d-flex gap-4 mt-4">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3 d-flex justify-content-between flex-fill">
+            <div>
+                <h4 class="text fs-5 fw-semibold">CÔNG TY</h4>
+                <ul class="d-flex flex-column gap-3">
+                    <li><a href="">Về chúng tôi</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Gói bids</a></li>
+                    <li><a href="">Người chiến thắng</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text fs-5 fw-semibold">HỖ TRỢ</h4>
+                <ul class="d-flex flex-column gap-3">
+                    <li><a href="">Đấu giá</a></li>
+                    <li><a href="">Đăng bài</a></li>
+                    <li><a href="">Thanh toán</a></li>
+                    <li><a href="">Bảo mật</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text fs-5 fw-semibold">LỜI KHUYÊN</h4>
+                <ul class="d-flex flex-column gap-3">
+                    <li><a href="">Cơ hội</a></li>
+                    <li><a href="">Lợi ích</a></li>
+                    <li><a href="">Lưu ý</a></li>
+                    <li><a href="">Chiến lược</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
