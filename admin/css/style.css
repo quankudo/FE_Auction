@@ -69,3 +69,26 @@ th {
 .div-delete-user{
     display: none;
 }
+
+.ended-div {
+    width: 100px;
+    padding: 3px 8px;
+    color: white;
+    background-color: #575758;
+    clip-path: polygon(100% 0, 70% 45%, 100% 100%, 0 100%, 0 0);
+}
+
+.button-primary{
+    background-color: #F33800;
+    color: white;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.button-sub {
+    border: 1px solid #F33800;
+    color: #F33800;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: white;
+}
